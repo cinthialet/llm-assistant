@@ -3,6 +3,8 @@
 Este assistente pode:
 - Responder perguntas de conhecimento geral diretamente
 - Usar uma calculadora para operações matemáticas
+- Buscar informações climáticas de qualquer cidade
+- Consultar preços históricos de criptomoedas listadas na Binance
 
 Uso:
     uv run python main.py           # Modo interativo (padrão)

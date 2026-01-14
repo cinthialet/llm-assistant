@@ -7,7 +7,7 @@ from langgraph.prebuilt import create_react_agent
 from src.prompts.system import SYSTEM_PROMPT
 from src.tools.calculator import calculator
 from src.tools.weather import get_weather
-
+from src.tools.crypto import get_crypto_price
 
 
 def create_assistant():
