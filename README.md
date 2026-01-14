@@ -132,3 +132,5 @@ LANGSMITH_API_KEY=sua-chave-langsmith
 LANGSMITH_PROJECT=nome-do-projeto
 LANGSMITH_TRACING=true
 ```
+
+#### Exemplo do trace de uma execução monitorado no langsmith: https://smith.langchain.com/public/ebabcef0-73b3-4238-9a4c-18878ae71386/r
