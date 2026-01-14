@@ -6,6 +6,8 @@ from langgraph.prebuilt import create_react_agent
 
 from src.prompts.system import SYSTEM_PROMPT
 from src.tools.calculator import calculator
+from src.tools.weather import get_weather
+
 
 
 def create_assistant():
@@ -25,7 +27,7 @@ def create_assistant():
     # Cria o agente com as ferramentas e o prompt usando o create_react_agent do LangGraph
     agent = create_react_agent(
         model=llm,
-        tools=[calculator],
+        tools=[calculator, get_weather],
         prompt=SYSTEM_PROMPT,
     )
 
