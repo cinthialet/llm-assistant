@@ -1,0 +1,5 @@
+# O .env é para não enviar as chaves de API para o git
+.env 
+__pycache__/
+*.pyc
+.venv/
