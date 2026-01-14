@@ -27,7 +27,7 @@ def create_assistant():
     # Cria o agente com as ferramentas e o prompt usando o create_react_agent do LangGraph
     agent = create_react_agent(
         model=llm,
-        tools=[calculator, get_weather],
+        tools=[calculator, get_weather, get_crypto_price],
         prompt=SYSTEM_PROMPT,
     )
 
